@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio</title>
+    <link rel="stylesheet" href="../Estilos/prueba.css">
+</head>
+<body>
+    <header>
+        <img src="../Imagenes/Unad.PNG" align="left" width="100" height="100" >
+        <h3>CONCEPTOS HTML5</h3>
+    </header>
+    <nav>
+        <a href="Menu.html">HTML</a>
+        <a href="Pagina1.html">ESTRUCTURA HTML5</a>
+        <a href="Pagina2.html">CARACTERISTICAS HTML5</a>
+        <a href="Menu.html">EJEMPLOS</a>
+    </nav>
+    <section class="contenedor">
+        <section class="central"> 
+        <article>
+            <h3>Estructura Básica de una Página en HTML5</h3>
+
+            <p>
+            Cada fichero HTML está compuesto de dos partes: el <b>head</b> y el <b>body.</b></br> </br> 
+            El <b>head</b> es una parte de la web donde colocamos todas aquellas etiquetas (que no se van a visualizar), 
+            pero que sirven para indicar todas las características que el navegador necesita, como, por ejemplo:</br>
+            meta charset="utf-8"/</br>
+            link rel=stylesheet href="css/estilo.css" type="text/css"</br> </br> 
+            El <b>body</b> es donde se colocan todos los elementos que sí se van a mostrar y que forman el contenido de la página. 
+            Habitualmente todo este contenido deberá estar dentro de cajas.</br>
+            (div, section, article o incluso aside )  
+            </p>
+
+            <p>Descripcion de Etiquetas:</br> </br> 
+            <b>meta charset="utf-8" : </b> La etiqueta charset es una de las imprescindibles, ya que indica la codificación que tendrá la página. 
+            Con un valor de utf-8 se mostrarán símbolos como la "ñ", "ç" o los acentos correctamente.
+            <br><b> title: Título de la página : </b>
+            El texto indicado dentro de la etiqueta <b>title</b> se mostrará en la pestaña del navegador. 
+            Además, ser el que se muestre en las búsquedas de los diferentes buscadores y es un elemento importante 
+            (a nivel de SEO) para el posicionamiento de la página.
+            <br><b> link rel=stylesheet href="css/estilo.css" type="text/css" : </b>En el atributo <b>href=" "</b> indicaremos la ruta donde está ubicado al fichero CSS externo 
+            (código que afectará a todos los elementos de todas las páginas HTML donde se coloque esta etiqueta).
+            <br><b> div: caja genérica : </b> Es el tipo de caja genérica, que, aunque no identifica qué tipo de contenido contiene, sigue siendo la más utilizada. 
+            <br><b> main: contenido principal de la página : </b></br> Es la caja que contiene todo el contenido principal de la página. Sólo puede existir un único  
+            <b>main</b> por página. No puede estar dentro de ninguna otra caja. Dentro contendrá aquel contenido que no se 
+            repita en cada página (conteniendo div, section, article o incluso aside ), pero nunca cajas como header, nav o footer).
+            <br><b> nav: enlaces : </b></br> La caja <b>nav</b> contiene todos los enlaces de la página, ya sea a otras secciones de nuestro mismo sitio web o a páginas 
+            externas.</br>
+            <b> section: sección de información : </b> Las cajas <b>section</b> contienen el contenido genérico de la página. Se pueden utilizar varios section al mismo tiempo 
+            en la misma página.</br>
+            <b> article: artículo : </b> Las cajas <b>article</b> también están destinadas a contener el contenido de la página, aunque normalmente suelen utilizarse 
+            para mostrar información más reducida y concreta y que puede ser independiente del resto.
+            </p>
+            <!--iframe src="PDF/lectura1.pdf" frameborder="0" width="100%" height="400"></iframe-->
+        </article>
+    </section>
+    <aside>
+        <h3>VIDEOS DE APOYO</h3>
+    </aside>
+    </section>
+    <footer>
+        <h3>
+
+        </h3>
+    </footer>
+</body>
+</html>
+

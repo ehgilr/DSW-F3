@@ -1,0 +1,48 @@
+body{
+    background-color:white;
+    font-family: 'Franklin Gothic Book';
+    font-size: 16px;
+}
+nav,header,.contenedor,footer{
+    max-width:92%;
+    margin: auto;
+}
+nav{
+    background-color: #4682B4;
+    height: 30px;
+    box-sizing: inherit;
+    margin-bottom: 5px;
+}
+header{
+    text-align: center;
+    height: 110px;
+    margin-bottom: 5px;
+}
+.contenedor{
+    background-color:white;
+}
+.central{
+    background-color:#FFA500;
+    display: inline-block;
+    width: 70%;
+    text-align: letf;
+}
+footer{
+    background-color: #4682B4;
+    height: 30px;
+}
+aside{
+    background-color:#4682B4;
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+}
+a {
+    text-decoration:none;
+}
+nav a:active, nav a:hover{
+    background-color: white;
+}
+nav a{
+    margin-right: 20px;
+}
