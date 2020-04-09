@@ -6,18 +6,11 @@ body{
     font-family: 'Franklin Gothic Book';
     font-size: 16px;
 }
-nav,header,.contenedor,footer{
+header,.contenedor,footer{
     max-width:92%;
     margin: auto;
 }
-nav{
-    background-color:#F0B429;
-    font-family:'Franklin Gothic Book';
-    height: 40px;
-    box-sizing: inherit;
-    margin-bottom:5px;
-    text-align: center;
-}
+
 header{
     text-align: center;
     height: 130px;
@@ -52,9 +45,51 @@ aside{
 a {
     text-decoration:none;
 }
-nav a:active, nav a:hover{
-    background-color: white;
+
+/*MENU*/
+nav{
+    width: 700px;
+    margin: 40px auto;
+    background-color: #F0B429;
 }
-nav a{
-    margin-right: 20px;
+nav ul{
+    list-style: none;  
 }
+.Menu > li{
+    position: relative;
+    display: inline-block;
+}
+.Menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+}
+.Menu li a:hover{
+    color: teal;
+    transition: all .3s;
+}
+
+/*subMenuMultimedia*/
+.subMenu{
+    position: absolute;
+    background: #F0B429;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;    
+}
+.subMenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+}
+.Menu li:hover .subMenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
