@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio</title>
-    <link rel="stylesheet" href="../Estilos/prueba.css">
+    <title>ESTRUCTURA HTML5</title>
+    <link rel="stylesheet" href="../Estilos/Lectura1.css">
 </head>
 <body>
     <header>
-        <img src="../Imagenes/Logotipo_Unad.png" align="left" width="180" height="180" >
-        <h1>OVI DISEÑO SITIOS WEB</h1>
-        <style>h1, h2, h5, h6 {color: white;</style>
-        <h2>ESTRUCTURA HTML5</h2> 
+        <div style="width: 100%;display: inline-block;">
+            <div style="width: 100%;">
+                <h1>OVI DISEÑO SITIOS WEB</h1>
+                <h1>ESTRUCTURA HTML5</h1> 
+            </div>
+            <div class="logo">
+                <img src="../Imagenes/Logotipo_Unad.png" width="150" >
+            </div>
+        </div>
     </header>
     <nav>
-        <a href="Menu.html">HTML</a>
-        <a href="Pagina1.html">ESTRUCTURA HTML5</a>
-        <a href="Pagina2.html">CARACTERISTICAS HTML5</a>
-        <a href="Menu.html">EJEMPLOS</a>
+        <ul class="Menu">
+            <li><a href="../Formularios/Index.html">INICIO</a></li>
+            <li><a href="#">LECTURAS</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Lectura1.html">ESTRUCTURA HTML5</a></li>
+                    <li><a href="../Formularios/Lectura2.html">CARACTERISTICAS HTML5</a></li>
+                    <li><a href="../Formularios/Lectura3.html">VISUAL STUDIO CODE</a></li>
+                    <li><a href="../Formularios/Lectura4.html">CSS3</a></li>
+                    <li><a href="../Formularios/Lectura5.html">HTML5 Y ACCESABILIDAD</a></li>                                  
+                </ul> 
+            </li>
+            <li><a href="#">MULTIMEDIA</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Multimedia1.html">HTML5</a></li>
+                    <li><a href="../Formularios/Multimedia2.html">CSS3 Y VISUAL STUDIO CODE</a></li>                                   
+                </ul>                
+            </li>
+            <li><a href="#">ACTIVIDADES</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Actividad1.html">EVALUACION HTML</a></li>
+                    <li><a href="../Formularios/Actividad2.html">SOPA DE LETRAS ETUIQUETAS HTML</a></li>
+                    <li><a href="../Formularios/Actividad3.html">A CON B HTML</a></li>                                  
+                </ul>                      
+            </li>
+            <li><a href="#">AUTORES</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Edwin Gil.html">EDWIN GIL</a></li>
+                    <li><a href="../Formularios/LauraAlarcon.html">LAURA</a></li>                                 
+                </ul>    
+            </li>
+        </ul>         
     </nav>
     <section class="contenedor">
         <section class="central"> 
@@ -37,21 +69,21 @@
             
             <p>Descripcion de Etiquetas:</br> </br> 
             <b>meta charset="utf-8" : </b> La etiqueta charset es una de las imprescindibles, ya que indica la codificación que tendrá la página. 
-            Con un valor de utf-8 se mostrarán símbolos como la "ñ", "ç" o los acentos correctamente.
-            <br><b> title: Título de la página : </b>
+            Con un valor de utf-8 se mostrarán símbolos como la "ñ", "ç" o los acentos correctamente.</br> 
+            <br><b> Title: título de la página : </b>
             El texto indicado dentro de la etiqueta <b>title</b> se mostrará en la pestaña del navegador. 
             Además, ser el que se muestre en las búsquedas de los diferentes buscadores y es un elemento importante 
-            (a nivel de SEO) para el posicionamiento de la página.
-            <br><b> link rel=stylesheet href="css/estilo.css" type="text/css" : </b>En el atributo <b>href=" "</b> indicaremos la ruta donde está ubicado al fichero CSS externo 
-            (código que afectará a todos los elementos de todas las páginas HTML donde se coloque esta etiqueta).
-            <br><b> div: caja genérica : </b> Es el tipo de caja genérica, que, aunque no identifica qué tipo de contenido contiene, sigue siendo la más utilizada. 
-            <br><b> main: contenido principal de la página : </b></br> Es la caja que contiene todo el contenido principal de la página. Sólo puede existir un único  
+            (a nivel de SEO) para el posicionamiento de la página.</br> 
+            <br><b> link rel=stylesheet href="css/estilo.css" type="text/css" : </b>En el atributo <b>href=" ", </b> indicaremos la ruta donde está ubicado al fichero CSS externo 
+            (código que afectará a todos los elementos de todas las páginas HTML donde se coloque esta etiqueta).</br> 
+            <br><b> div: caja genérica : </b> Es el tipo de caja genérica, que, aunque no identifica qué tipo de contenido contiene, sigue siendo la más utilizada. </br> 
+            <br><b> main: contenido principal de la página : </b> Es la caja que contiene todo el contenido principal de la página. Sólo puede existir un único  
             <b>main</b> por página. No puede estar dentro de ninguna otra caja. Dentro contendrá aquel contenido que no se 
-            repita en cada página (conteniendo div, section, article o incluso aside ), pero nunca cajas como header, nav o footer).
-            <br><b> nav: enlaces : </b></br> La caja <b>nav</b> contiene todos los enlaces de la página, ya sea a otras secciones de nuestro mismo sitio web o a páginas 
-            externas.</br>
+            repita en cada página (conteniendo div, section, article o incluso aside ), pero nunca cajas como header, nav o footer).</br> 
+            <br><b> nav: enlaces : </b> La caja <b>nav</b> contiene todos los enlaces de la página, ya sea a otras secciones de nuestro mismo sitio web o a páginas 
+            externas.</br></br>
             <b> section: sección de información : </b> Las cajas <b>section</b> contienen el contenido genérico de la página. Se pueden utilizar varios section al mismo tiempo 
-            en la misma página.</br>
+            en la misma página.</br></br>
             <b> article: artículo : </b> Las cajas <b>article</b> también están destinadas a contener el contenido de la página, aunque normalmente suelen utilizarse 
             para mostrar información más reducida y concreta y que puede ser independiente del resto.
             </p>
@@ -59,7 +91,7 @@
         </article>
     </section>
     <aside>
-        <img src="../Imagenes/etiquetas-semanticas-html5.jpg" align="left" width="350" height="600" >
+        <img src="../Imagenes/etiquetas-semanticas-html5.jpg" width="400" height="500">
     </aside>
     
     <footer>

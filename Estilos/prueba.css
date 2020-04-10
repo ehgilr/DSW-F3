@@ -6,7 +6,7 @@ body{
     font-family: 'Franklin Gothic Book';
     font-size: 16px;
 }
-nav,header,.contenedor,footer{
+nav,.contenedor,footer{
     max-width:92%;
     margin: auto;
 }
@@ -20,7 +20,6 @@ nav{
 }
 header{
     text-align: center;
-    height: 130px;
     margin-bottom: 5px;       
 }
 .contenedor{
@@ -58,3 +57,5 @@ nav a:active, nav a:hover{
 nav a{
     margin-right: 20px;
 }
+
+

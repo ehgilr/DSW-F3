@@ -3,27 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio</title>
-    <link rel="stylesheet" href="../Estilos/prueba.css">
+    <title>SOPA DE LETRAS ETIQUETAS HTML</title>
+    <link rel="stylesheet" href="../Estilos/Index.css">
 </head>
 <body>
     <header>
-        <img src="../Imagenes/Logotipo_Unad.png" align="left" width="180" height="180" >
-        <h1>OVI DISEÑO SITIOS WEB</h1>
-        <style>h1, h2{color: white;</style>
-        <h2>SOPA DE LETRAS ETIQUETAS HTML</h2> 
+        <div style="width: 100%;display: inline-block;">
+            <div style="width: 100%;">
+                <h1>OVI DISEÑO SITIOS WEB</h1>
+                <h1>SOPA DE LETRAS ETIQUETAS HTML</h1> 
+            </div>
+            <div class="logo">
+                <img src="../Imagenes/Logotipo_Unad.png" width="150" >
+            </div>
+        </div>
     </header>
     <nav>
-        <a href="Menu.html">INICIO</a>
-        <a href="Pagina1.html">LECTURAS</a>
-        <a href="Pagina2.html">MULTIMEDIA</a>
-        <a href="Menu.html">ACTIVIDADES</a>
-        <a href="Menu.html">AUTORES</a>
+        <ul class="Menu">
+            <li><a href="../Formularios/Index.html">INICIO</a></li>
+            <li><a href="#">LECTURAS</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Lectura1.html">ESTRUCTURA HTML5</a></li>
+                    <li><a href="../Formularios/Lectura2.html">CARACTERISTICAS HTML5</a></li>
+                    <li><a href="../Formularios/Lectura3.html">VISUAL STUDIO CODE</a></li>
+                    <li><a href="../Formularios/Lectura4.html">CSS3</a></li>
+                    <li><a href="../Formularios/Lectura5.html">HTML5 Y ACCESABILIDAD</a></li>                                  
+                </ul> 
+            </li>
+            <li><a href="#">MULTIMEDIA</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Multimedia1.html">HTML5</a></li>
+                    <li><a href="../Formularios/Multimedia2.html">CSS3 Y VISUAL STUDIO CODE</a></li>                                   
+                </ul>                
+            </li>
+            <li><a href="#">ACTIVIDADES</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Actividad1.html">EVALUACION HTML</a></li>
+                    <li><a href="../Formularios/Actividad2.html">SOPA DE LETRAS ETUIQUETAS HTML</a></li>
+                    <li><a href="../Formularios/Actividad3.html">A CON B HTML</a></li>                                  
+                </ul>                      
+            </li>
+            <li><a href="#">AUTORES</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Edwin Gil.html">EDWIN GIL</a></li>
+                    <li><a href="../Formularios/LauraAlarcon.html">LAURA</a></li>                                 
+                </ul>    
+            </li>
+        </ul>         
     </nav>
     <section class="contenedor">
         <br>
         <br>
-        <h1>SOPA DE LETRAS ETIQUETAS HTML</h1>
         <br>
         <iframe width="795" height="690" frameborder="0" src="https://es.educaplay.com/juego/3713694-etiquetas_html.html"></iframe>
         <br>

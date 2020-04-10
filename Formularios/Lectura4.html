@@ -3,27 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio</title>
-    <link rel="stylesheet" href="../Estilos/prueba.css">
+    <title>CSS3</title>
+    <link rel="stylesheet" href="../Estilos/Lectura4.css">
 </head>
 <body>
     <header>
-        <img src="../Imagenes/Logotipo_Unad.png" align="left" width="180" height="180" >
-        <h1>OVI DISEÑO SITIOS WEB</h1>
-        <style>h1, h2, h5, h6 {color: white;</style>
-        <h2>CSS3</h2> 
+        <div style="width: 100%;display: inline-block;">
+            <div style="width: 100%;">
+                <h1>OVI DISEÑO SITIOS WEB</h1>
+                <h1>CSS3</h1> 
+            </div>
+            <div class="logo">
+                <img src="../Imagenes/Logotipo_Unad.png" width="150" >
+            </div>
+        </div>
     </header>
     <nav>
-        <a href="Menu.html">HTML</a>
-        <a href="Pagina1.html">ESTRUCTURA HTML5</a>
-        <a href="Pagina2.html">CARACTERISTICAS HTML5</a>
-        <a href="Menu.html">EJEMPLOS</a>
+        <ul class="Menu">
+            <li><a href="../Formularios/Index.html">INICIO</a></li>
+            <li><a href="#">LECTURAS</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Lectura1.html">ESTRUCTURA HTML5</a></li>
+                    <li><a href="../Formularios/Lectura2.html">CARACTERISTICAS HTML5</a></li>
+                    <li><a href="../Formularios/Lectura3.html">VISUAL STUDIO CODE</a></li>
+                    <li><a href="../Formularios/Lectura4.html">CSS3</a></li>
+                    <li><a href="../Formularios/Lectura5.html">HTML5 Y ACCESABILIDAD</a></li>                                  
+                </ul> 
+            </li>
+            <li><a href="#">MULTIMEDIA</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Multimedia1.html">HTML5</a></li>
+                    <li><a href="../Formularios/Multimedia2.html">CSS3 Y VISUAL STUDIO CODE</a></li>                                   
+                </ul>                
+            </li>
+            <li><a href="#">ACTIVIDADES</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Actividad1.html">EVALUACION HTML</a></li>
+                    <li><a href="../Formularios/Actividad2.html">SOPA DE LETRAS ETUIQUETAS HTML</a></li>
+                    <li><a href="../Formularios/Actividad3.html">A CON B HTML</a></li>                                  
+                </ul>                      
+            </li>
+            <li><a href="#">AUTORES</a>
+                <ul class="subMenu">
+                    <li><a href="../Formularios/Edwin Gil.html">EDWIN GIL</a></li>
+                    <li><a href="../Formularios/LauraAlarcon.html">LAURA</a></li>                                 
+                </ul>    
+            </li>
+        </ul>         
     </nav>
     <section class="contenedor">
         <section class="central"> 
         <article>
         
-        <img src="../Imagenes/css3.png" align="central" width="500" height="400" >   
+        <div class="imagen">
+        <img src="../Imagenes/css3.png" width="200" height="200" >   
+        </div>
 
             <p>El nombre hojas de estilo en cascada viene del inglés Cascading Style Sheets,
             del que toma sus siglas. CSS es un lenguaje usado para definir la presentación 
@@ -49,38 +83,36 @@
             </p>
             <h4>CARACTERISTICAS PRINCIPALES DE CSS3</h4>
             <p>1 - Atributo gradiente de colores en borde con CSS y Firefox: Posibilidad de definir
-            el un gradiente de color en el borde de los elementos con CSS, en un atributo no estándar de Firefox. <br>
-            2 - Bordes redondeados en CSS 3: Las características de CSS 3 incluyen bordes redondeados,
-            a través del atributo border-radius, que define la curvatura que debe tener el borde del elemento. <br>
+            el un gradiente de color en el borde de los elementos con CSS, en un atributo no estándar de Firefox. <br><br>
+            2 - Bordes redondeados en CSS3: Las características de CSS3 incluyen bordes redondeados,
+            a través del atributo border-radius, que define la curvatura que debe tener el borde del elemento. <br><br>
             3 - Múltiples imágenes de fondo con CSS: Cómo conseguir que un elemento de la página tenga varias
-            imágenes de fondo a la vez, con CSS básico y con características de CSS 3. <br>
-            4 - Colores RGBA en CSS 3: Veremos qué son los colores RGBA y su notación, que se incluyen
-            en la especificación de Hojas de Estilo en Cascada CSS 3. <br>
-            5 - Word-wrap en CSS 3: Una propiedad de CSS 3 que sirve para romper las palabras que son demasiado
-            largas y no caben enteras por la anchura de una caja. <br>
-            6 -Textos multi-columna con CSS 3: CSS 3 incorpora nuevos atributos para que el navegador
+            imágenes de fondo a la vez, con CSS básico y con características de CSS3. <br><br>
+            4 - Colores RGBA en CSS3: Veremos qué son los colores RGBA y su notación, que se incluyen
+            en la especificación de Hojas de Estilo en Cascada CSS3. <br><br>
+            5 - Word-wrap en CSS3: Una propiedad de CSS3 que sirve para romper las palabras que son demasiado
+            largas y no caben enteras por la anchura de una caja. <br><br>
+            6 -Textos multi-columna con CSS3: CSS3 incorpora nuevos atributos para que el navegador
             se encargue de producir texto multicolumna, es decir, que maquete directamente el texto en
-            varias columnas sin tener que hacer nosotros nada. <br>
-            7 - Bordes con imágenes en CSS 3: El atributo border-image y varios otros de CSS 3 harán 
+            varias columnas sin tener que hacer nosotros nada. <br><br>
+            7 - Bordes con imágenes en CSS3: El atributo border-image y varios otros de CSS3 harán 
             posible la utilización de imágenes como bordes de los elementos de la página, sin código HTML especial,
-            simplemente con hojas de estilo. <br>
-            8 - Sombras en CSS 3 con box-shadow: Crear sombras en CSS3 con el atributo box-shadow. 
+            simplemente con hojas de estilo. <br><br>
+            8 - Sombras en CSS3 con box-shadow: Crear sombras en CSS3 con el atributo box-shadow. 
             Por fin podremos aplicar sombras a los elementos de la página, sin usar imágenes, Javascript 
-            ni nada extra, simplemente con un atributo de CSS 3. <br>
+            ni nada extra, simplemente con un atributo de CSS3. <br><br>
             9 - Resplandor exterior con CSS3: Cómo realizar un elemento que tenga un resplandor exterior 
-            con CSS3 y la propiedad box-shadow. <br>
-            10 - Propiedad background-origin de CSS 3: La propiedad de CSS 3 background-origin permite 
-            decidir la posición de la imagen de fondo con respecto al borde, padding o el contenido del elemento. <br>
+            con CSS3 y la propiedad box-shadow. <br><br>
+            10 - Propiedad background-origin de CSS3: La propiedad de CSS3 background-origin permite 
+            decidir la posición de la imagen de fondo con respecto al borde, padding o el contenido del elemento. <br><br>
             11 - Atributos CSS3 overflow-x y overflow-y: Descripción de los atributos de CSS3 overflow-x 
             y overflow-y, que sirven para definir cómo renderizar un contenido cuando sobrepasa los límites 
-            de un contenedor en la horizontal o vertical. <br>
-            12 - Introducción a @font-face de CSS: Fuentes en CSS 3. Sintaxis y principales características 
-            de la regla CSS @font-face, que nos permite utilizar cualquier tipografía en una página web. <br>
+            de un contenedor en la horizontal o vertical. <br><br>
+            12 - Introducción a @font-face de CSS: Fuentes en CSS3. Sintaxis y principales características 
+            de la regla CSS @font-face, que nos permite utilizar cualquier tipografía en una página web. <br><br>
             13 - Sombras en el texto con text-shadow de CSS: Cómo aplicar sombras y otros efectos en los 
-            textos con CSS y el atributo text-shadow. <br>
+            textos con CSS y el atributo text-shadow. <br><br>
             </p>                       
-
-            <!--iframe src="PDF/lectura1.pdf" frameborder="0" width="100%" height="400"></iframe-->
         </article>
     </section>
     
