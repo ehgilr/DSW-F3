@@ -53,9 +53,9 @@ footer{
 aside{
     background-color:#005883;
     display: inline-block;
-    width: 30%;
+    max-width: 30%;
     text-align: center;
-    margin-top: -300px;
+    max-height: 10%;
 }
 
 a {
