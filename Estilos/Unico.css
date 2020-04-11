@@ -5,51 +5,46 @@ h1{
     color: white;
     font-size: 30px;
 }
-
 h3{
     font-family: 'Libre Franklin', sans-serif;
     text-align: center;
 }
-
+h4{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
 html{
     background-color: #005883;
 }
-
 body{
     background-color:#005883;
     font-family: 'Franklin Gothic Book';
     font-size: 16px;
 }
-
 header,.contenedor,footer{
     max-width:92%;
     margin: auto;
 }
-
-header{
-    height: 160px;
-    margin-bottom: 3px;  
-}
-
 .contenedor{
     background-color:#005883;
     text-align: center;
 }
-
 .central{
     background-color:#F0B429;
     display: inline-block;
-    width: 50%;
+    width: 60%;
     height: 100%;
     text-align: left;       
 }
-
+header{
+    height: 160px;
+    margin-bottom: 3px;  
+}
 footer{
     background-color:#999999;
-    height: 60px;
+    height: 70px;
     text-align: center;
 }
-
 aside{
     background-color:#005883;
     display: inline-block;
@@ -57,21 +52,23 @@ aside{
     text-align: center;
     max-height: 10%;
 }
-
 a {
     text-decoration:none;
 }
-
 p{
     margin-left:5px;
 }
-
 .logo{
-    margin-top: -150px;
     text-align: left;
-    margin-left: 150px;
+    position: absolute;
+    top: 0;
 }
-
+.imagen{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 200px;
+}
 nav{
     width: 92%;
     margin: 40px auto;
@@ -96,7 +93,6 @@ nav ul{
     color: teal;
     transition: all .3s;
 }
-
 /*subMenuMultimedia*/
 .subMenu{
     position: absolute;
@@ -105,7 +101,6 @@ nav ul{
     opacity: 0;
     transition: opacity 1s;    
 }
-
 .subMenu li a{
     display: block;
     padding: 15px;
@@ -117,3 +112,24 @@ nav ul{
     visibility: visible;
     opacity: 1;
 }
+@media (max-width: 840px) {
+    .logo img{
+        width: 50px;
+        height: auto;
+    }
+    aside{
+        display: inline;
+        width: 100%;
+    }
+    aside img{
+        width: 300px;
+        height: 300px;
+    }
+    .central{
+        width: 100%;
+    }
+    .imagen{
+        width: 300px;
+        height: 200px;
+    }
+  }
